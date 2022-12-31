@@ -7,14 +7,14 @@ const Alexa = require('ask-sdk-core');
 const STREAMS = [
   {
     'token': 'dabble-radio-1',
-    'url': 'https://stream.zeno.fm/efe91skxn18uv.m3u',
+    'url': 'https://stream.zeno.fm/u4m41kgunv8uv.m3u',
     'metadata': {
-      'title': 'Dabble Radio',
-      'subtitle': 'Music for coders',
+      'title': 'Miranda',
+      'subtitle': 'Radio Miranda 100.1',
       'art': {
         'sources': [
           {
-            'contentDescription': 'Dabble Radio',
+            'contentDescription': 'Miranda',
             'url': 'https://s3.amazonaws.com/cdn.dabblelab.com/img/audiostream-starter-512x512.png',
             'widthPixels': 512,
             'heightPixels': 512,
@@ -24,7 +24,7 @@ const STREAMS = [
       'backgroundImage': {
         'sources': [
           {
-            'contentDescription': 'Dabble Radio',
+            'contentDescription': 'Miranda',
             'url': 'https://s3.amazonaws.com/cdn.dabblelab.com/img/wayfarer-on-beach-1200x800.png',
             'widthPixels': 1200,
             'heightPixels': 800,
